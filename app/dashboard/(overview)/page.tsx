@@ -27,6 +27,14 @@ export default async function Page() {
   `}
       </Script>
       <main>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TQ3F66XH"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
           Dashboard
         </h1>
